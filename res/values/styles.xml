@@ -1,0 +1,47 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/actionbar</item>
+        <item name="android:actionBarTabBarStyle">@style/actionbarTab</item>
+        <item name="android:actionBarTabTextStyle">@style/tab.text</item>
+    </style>
+    
+    <style name="actionbar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#43B6F8</item>
+        <item name="android:titleTextStyle">@style/actionbar.textStyle</item>
+    </style>
+    
+    <style name="actionbarTab" parent="@android:style/Widget.Holo.ActionBar.TabBar">
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:textColor">#43B6F8</item>
+    </style>
+    
+    <style name="actionbar.textStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+ 	
+    <style name="tab.text" parent="@android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">#43B6F8</item>
+    </style>
+    
+    <style name="postBtn" parent="@android:style/Widget.Holo.Button">
+        <item name="android:background">@drawable/tweet_button</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>
