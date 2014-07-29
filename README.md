@@ -1,8 +1,15 @@
 TwitterAppClient
 ================
 
-Simple Twitter Client that leverages fragments to display the home and mentions timeline.
+   * [x] Style the login screen for twitter
+   * [x] Pick a good Twitter launcher icon
+   * [x] Properly theme the ActionBar with correct text and background colors
+   * [x] Theme the tabs to fit a "twitter" color scheme
+   * [x] On compose screen, the "post" button should be customized (images or drawables) with a pressed state
+   * [x] Add inline "favorite" and "reply" icons to each tweet. Favorite icon should toggle when pressed.
+   
+ 
+ Walkthrough 
+ --- 
 
-## Installation
-
-Import this twitter source code into eclipse using **File => Import => Existing Android Code** and the project should now compile.
+![Video Walkthrough](demo.gif)
